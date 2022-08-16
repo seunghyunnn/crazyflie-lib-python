@@ -1,0 +1,27 @@
+time.ms -> showing time that has passed in milliseconds
+
+stateEstimate.x -> showing current estimation for x coordinate
+
+stateEstimate.y -> showing current estimation for y coordinate
+
+stateEstimate.z -> showing current estimation for z coordinate
+
+stabilizer.roll -> showing current estimation for roll
+
+stabilizer.pitch -> showing current estimation for pitch
+
+stabilizer.yaw -> showing current estimation for yaw
+
+pm.vbat -> showing current estimation for voltage
+
+travel_dist -> distance traveled so far. in meter
+
+node_name -> it will either show the name of the node it is hovering, e.g. A1,B2,etc. or it will say "fly" if it is moving and therefore not hovering a certain node
+
+wind_speed -> in km/hours
+
+wind_direction -> '-' for no wind, 'H' for headwind, 'T' for tailwind, 'C' for crosswind
+
+num_of_package -> number of packages that the drone is carrying 
+
+total_weight -> the total weight of drone, packages, and package hanger 
